@@ -1,0 +1,320 @@
+/* ================= PAGE 1 CSS ================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.logo {
+  font-weight: 700;
+  color: #e60000;
+  font-size: 20px;
+}
+
+.apply-btn {
+  background: #e60000;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #cc0000;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+/* LEFT */
+.left {
+  max-width: 50%;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background: #ffeaea;
+  color: #e60000;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background: #e60000;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.main-heading {
+  font-size: 56px;
+  margin: 10px 0 5px;
+  line-height: 1.1;
+}
+
+.main-heading span {
+  color: #e60000;
+}
+
+.sub-heading {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.left p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stats div {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.stats i {
+  color: #e60000;
+  margin-bottom: 5px;
+}
+
+/* FORM */
+.form-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 380px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+/* TOP TAGS */
+.top-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.top-tags span {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.tag {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.form-card h3 {
+  margin-top: 10px;
+}
+
+/* FORM GRID */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-box i {
+  color: #999;
+  margin-right: 8px;
+}
+
+.input-box input,
+.input-box select {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* BUTTON */
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #e60000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #cc0000;
+}
+
+.secure-text {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+/* ================= PAGE 2 CSS ================= */
+
+.hero-text {
+  flex: 1;
+}
+
+.tag::before {
+  content: "●";
+  color: #ff3b3b;
+  margin-right: 8px;
+  font-size: 10px;
+}
+
+.desc {
+  margin: 20px 0;
+  color: #666;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.options button {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.primary-btn {
+  padding: 12px 20px;
+  background: #0c1a2b;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+}
+
+.hero-img {
+  width: 460px;
+  height: 560px;
+  background: #f8eaea;
+  padding: 10px;
+  border-radius: 24px;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.features {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #020617, #1a0b2e);
+  color: white;
+}
+
+.small-title::before {
+  content: "— ";
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue { background: #1e90ff; }
+.red-bg { background: #ff4d4d; }
+.orange { background: #ff9f1a; }
+
+/* ================= UPDATED COLORS & SIZES ================= */
+.red-text-large {
+  color: #e60000; /* same as Potential */
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.red-text-potential {
+  color: #e60000; /* same as Potential */
+}
+.red-text-large.Be a trailblazer {
+font-weight: 700;
+font size: 3rem;
+}
